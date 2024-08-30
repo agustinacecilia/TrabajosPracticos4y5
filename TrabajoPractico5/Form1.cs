@@ -53,7 +53,7 @@ namespace TrabajoPractico5
             row.Cells["CFechaNacimiento"].Value = fechaNacimiento.ToShortDateString();
             row.Cells["CSexo"].Value = sexo;
             row.Cells["CSaldo"].Value = saldo;
-            row.Cells["CFoto"].Value = "Ver";  // Podrías hacer un botón o un link para ver la foto
+        
             row.Cells["CRuta"].Value = rutaFoto;
 
             // Cargar la imagen desde la ruta
